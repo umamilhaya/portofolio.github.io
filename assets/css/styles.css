@@ -1,0 +1,93 @@
+#logo{
+  margin-right:10px;
+  display:inline-block;
+}
+
+.landing{
+  text-align:center;
+  padding-top:48px;
+  background-image:url(../../assets/img/bg.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-top:45px;
+  height:610px;
+}
+
+@media (max-width:767px) {
+  .buble{
+    padding:20px;
+    height:inherit;
+  }
+}
+
+@media (max-width:991px) {
+  .bubl{
+    height:inherit;
+  }
+}
+
+.bubl, .bubl2, .bubl3{
+  border-radius:50%;
+  padding:30px;
+  background-color:rgb(252,248,248);
+  max-width:1000px;
+  margin:0 auto;
+  margin-left:15px;
+}
+
+.bubl2{
+  width:50px;
+  height:50px;
+  margin:30px 3px;
+  padding:0px;
+}
+
+.bubl3{
+  margin:40px 3px;
+  padding:0px;
+  width:30px;
+  height:30px;
+}
+
+@media (max-width:991px) {
+  .bubl{
+    padding:20px;
+  }
+}
+
+.h1l{
+  color:white;
+  text-align:left;
+  text-shadow:black 3px 4px;
+  margin-top:33px;
+}
+
+div.container.wrap{
+  background-color:rgba(218,213,213,0.75);
+}
+
+#about, #contact{
+  background-image:url(../../assets/img/intersection.png);
+  padding:20px;
+}
+
+#photo{
+  float:left;
+  margin-right:10px;
+}
+
+hr{
+  border:2px solid rgb(85,81,81);
+  width:450px;
+}
+
+@media (max-width:767px) {
+  hr{
+    width:225px;
+  }
+}
+
+#leb p{
+  margin-top:13px;
+}
+
